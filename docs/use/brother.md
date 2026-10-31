@@ -8,6 +8,9 @@ Next to the Bluetooth printers of the original (Phomemo, NIIMBOT, see the [origi
 
 1. **On the printer**, set the command mode to **Raster** once, in the printer's own menu. New printers come set to "P-touch Template" and then print nothing.
 2. **At the scale: Settings → Connection → Label printer** chooses **Off**, **Bluetooth** or **WiFi**. WiFi takes effect at once; Bluetooth restarts the scale. The settings of a Bluetooth printer stay saved.
+
+    ![Settings, Connection, Label printer](../assets/images/en/label-printer.png){ width="360" }
+
 3. **Web interface → Printer:** the printer's IP address (the printer must be on the same WiFi), the label, and the print position with a calibration page. A test print shows its verdict on the scale as well.
 
 ## Printing

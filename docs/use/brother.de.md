@@ -8,6 +8,9 @@ Neben den Bluetooth-Druckern des Originals (Phomemo, NIIMBOT, siehe [Doku des Or
 
 1. **Am Drucker** einmal im Menü des Druckers den Befehlsmodus **Raster** einstellen. Neue Drucker stehen auf „P-touch Template“ und drucken dann nichts.
 2. **An der Waage: Einstellungen → Verbindung → Etikettendrucker** wählt **Aus**, **Bluetooth** oder **WLAN**. WLAN gilt sofort; für Bluetooth startet die Waage neu. Die Einstellungen eines Bluetooth-Druckers bleiben gespeichert.
+
+    ![Einstellungen, Verbindung, Etikettendrucker](../assets/images/de/label-printer.png){ width="360" }
+
 3. **Weboberfläche → Drucker:** die IP-Adresse des Druckers (er muss im selben WLAN sein), das Etikett und die Druckposition mit einer Kalibrierseite. Ein Probedruck zeigt sein Ergebnis auch an der Waage.
 
 ## Drucken

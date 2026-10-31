@@ -2,6 +2,8 @@
 
 This is the documentation of the [Eifel-Joe fork](https://github.com/Eifel-Joe/SpoolmanScale) of [SpoolmanScale](https://github.com/Niko11111/SpoolmanScale), the ESP32 filament scale with an NFC reader and a touchscreen by Niko11111.
 
+![The main screen with a spool and its weight](assets/images/en/main-spool.png){ width="360" }
+
 It covers only what this fork does differently. Everything else, from the parts list and the WT32-SC01 Plus wiring to tags, backends and drying, is in the **[original's documentation](https://niko11111.github.io/SpoolmanScale-Docs/)**, and it applies to this fork as well.
 
 !!! note "Pre-releases"

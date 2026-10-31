@@ -39,6 +39,8 @@ Nichts von Hand zu wählen. Der Test findet heraus, was der Drucker hat:
 
 Der Druckerknopf oben im AMS-Fenster zeigt den Namen des Druckers mit einem Pfeil. Antippen öffnet **Drucker wählen**: alle Drucker als Knöpfe in zwei Spalten, mit Name und Art (das Bambu-Modell oder „Klipper“ mit seinen Werkzeugen, MMU-Fächern oder AFC-Fächern); der aktuelle hat einen Haken. Eine Lupe sucht in Namen und Arten: „jar“ findet Jarvis, „klipper“ jeden Klipper-Drucker. **Abbrechen** oder Zurück lässt alles, wie es war. Das gilt auf allen drei Platinen und auch für Bambu-Drucker.
 
+![Drucker wählen: Bambu- und Klipper-Drucker](../assets/images/de/printer-list.png){ width="360" }
+
 Ein Klipper-Drucker zeigt seine Gates, Lanes oder Werkzeuge in Vierergruppen, mit der Spule, die jedes hält: Farbe und Material vom Drucker oder aus Spoolman, die Gramm aus Spoolman.
 
 **Zuordnen:** Spule wiegen, dann **in welches Fach?** → der Klipper-Drucker → das Feld. Oder **Mehr Info → Ins AMS**. Der Drucker führt die Spule dann dort (wie Mainsail oder Fluidd zeigen), und ihr Lagerort in Spoolman wird der Name des Druckers. Happy Hare im Modus `push` oder `pull` setzt den Lagerort selbst.

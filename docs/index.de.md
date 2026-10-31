@@ -2,6 +2,8 @@
 
 Dies ist die Doku des [Eifel-Joe-Forks](https://github.com/Eifel-Joe/SpoolmanScale) von [SpoolmanScale](https://github.com/Niko11111/SpoolmanScale), der ESP32-Filamentwaage mit NFC-Leser und Touchscreen von Niko11111.
 
+![Der Hauptschirm mit einer Spule und ihrem Gewicht](assets/images/de/main-spool.png){ width="360" }
+
 Sie beschreibt nur, was dieser Fork anders macht. Alles andere, von der Stückliste und der Verkabelung der WT32-SC01 Plus bis zu Tags, Backends und Trocknung, steht in der **[Doku des Originals](https://niko11111.github.io/SpoolmanScale-Docs/de/)** und gilt auch für diesen Fork.
 
 !!! note "Vorabversionen"

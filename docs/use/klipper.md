@@ -39,6 +39,8 @@ Nothing to choose by hand. The test finds out what the printer has:
 
 The printer button at the top of the AMS view shows the printer's name with an arrow. A tap opens **Choose printer**: every printer as a button in two columns, with its name and what it is (the Bambu model, or "Klipper" with its tools, MMU slots or AFC slots); the current one has a tick. A magnifier searches names and kinds: "jar" finds Jarvis, "klipper" every Klipper printer. **Cancel** or back leaves everything as it was. This works on all three boards and for Bambu printers too.
 
+![Choose printer: Bambu printers and Klipper printers](../assets/images/en/printer-list.png){ width="360" }
+
 A Klipper printer shows its gates, lanes or tools in groups of four, with the spool each one holds: colour and material from the printer or from Spoolman, the grams from Spoolman.
 
 **Assigning:** weigh a spool, then **into which bay?** → the Klipper printer → the field. Or **More info → Into AMS**. The printer then holds the spool there (as Mainsail or Fluidd show), and the spool's location in Spoolman becomes the printer's name. Happy Hare in `push` or `pull` mode sets the location itself.

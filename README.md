@@ -12,7 +12,9 @@ English and German side by side (`mkdocs-static-i18n`, suffix structure): `use/s
 
 ## Screenshots
 
-`docs/assets/images/{de,en}/` come from a Waveshare 7B on the firmware version the page describes: two fingers on the display for a second, then fetched from the scale's web interface (`/api/screenshot.bmp`) and converted to PNG. They show the 480×320 interface at its own size. IP addresses, WiFi names and device IDs do not go onto a published picture.
+`docs/assets/images/{de,en}/` come from a Waveshare 7B and show the 480×320 interface at its own size. IP addresses, WiFi names and device IDs do not go onto a published picture (blurred where a screen shows one).
+
+They are taken with the **documentation build** of the firmware, branch `feat/doku-bilder` of the firmware repository, which is never released and never merged: it adds `POST /api/touch` (tap, long press, swipe in 480×320 coordinates) and `POST /api/sim/weight?g=` (a simulated weight on the pad), writes nothing to any server, and names itself `v0.8.6-beta.12-doku` everywhere but on the screens that go into the pictures. For new pictures: merge the current `dev` into that branch, let the CI build it, upload the image on the scale, tap through with `/api/touch`, take each picture with `POST /api/screenshot`, fetch them with `tools/fetch_screenshots.py`, then put the released firmware back on the scale. Take a screenshot after every change of screen before tapping again: a cancel does not always lead back to the screen one expects.
 
 ## Building
 
