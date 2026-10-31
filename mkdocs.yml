@@ -1,0 +1,102 @@
+site_name: SpoolmanScale – Eifel-Joe fork
+site_description: Documentation of the Eifel-Joe fork of SpoolmanScale - Waveshare 7 and 7B, BamBuddy with Spoolman, Klipper printers, Brother QL
+site_url: https://eifel-joe.github.io/SpoolmanScale-Docs/
+repo_name: Eifel-Joe/SpoolmanScale
+repo_url: https://github.com/Eifel-Joe/SpoolmanScale
+edit_uri: ""
+
+theme:
+  name: material
+  # No web fonts: the browser's own fonts, so a visit loads nothing from
+  # another host.
+  font: false
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to the browser's setting
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - content.code.copy
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Eifel-Joe/SpoolmanScale
+      name: This fork on GitHub
+
+copyright: SpoolmanScale fork by Eifel-Joe, GPL-3.0-or-later · Based on <a href="https://github.com/Niko11111/SpoolmanScale">SpoolmanScale</a> by Niko11111
+
+plugins:
+  - search
+  # English and German side by side: page.md next to page.de.md. A page
+  # without a German file falls back to English.
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
+          copyright: SpoolmanScale-Fork von Eifel-Joe, GPL-3.0-or-later · Beruht auf <a href="https://github.com/Niko11111/SpoolmanScale">SpoolmanScale</a> von Niko11111
+          nav_translations:
+            Home: Start
+            Build: Bauen
+            Waveshare 7 and 7B: Waveshare 7 und 7B
+            Use: Benutzen
+            Flashing and updates: Flashen und Updates
+            Creating spools: Spulen anlegen
+            Weighing and empty spools: Wiegen und Leerspulen
+            Brother label printer: Brother-Etikettendrucker
+            Klipper printers: Klipper-Drucker
+            Web interface: Weboberfläche
+            Help: Hilfe
+            Troubleshooting: Fehlersuche
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+      toc_depth: 2
+
+nav:
+  - Home: index.md
+  - Build:
+    - Waveshare 7 and 7B: build/waveshare.md
+  - Use:
+    - Flashing and updates: use/updates.md
+    - Creating spools: use/spools.md
+    - Weighing and empty spools: use/weighing.md
+    - Brother label printer: use/brother.md
+    - Klipper printers: use/klipper.md
+    - Web interface: use/web.md
+  - Help:
+    - Troubleshooting: help/troubleshooting.md
