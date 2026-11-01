@@ -40,7 +40,7 @@ Use the connector labelled **USB**, not the one labelled UART, for power, flashi
 ## What is different on these boards
 
 - **The picture** is the 480×320 interface of the WT32, enlarged until it fills the panel: about 11 % wider on the 7, about 14 % on the 7B. Every screen and every setting is otherwise the same.
-- **Brightness** dims the picture. The backlight of the 7 can only be switched on and off; the 7B could dim it, but the firmware keeps it at full.
+- **Brightness** dims the backlight of the 7B itself (since 0.8.6-beta.16; before, the picture was dimmed). The backlight of the 7 can only be switched on and off, so on the 7 the picture is dimmed.
 - **SD card:** the slot on the board takes the log, as on the WT32.
 - **Updates** download the board's own image; the upload in the browser refuses an image built for another board. See [Flashing and updates](../use/updates.md).
 

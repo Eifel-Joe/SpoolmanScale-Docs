@@ -40,7 +40,7 @@ Für Strom, Flashen, das serielle Protokoll und die WLAN-Einrichtung über den W
 ## Was auf diesen Platinen anders ist
 
 - **Das Bild** ist die 480×320-Oberfläche der WT32, vergrößert, bis sie das Panel füllt: auf der 7 etwa 11 % breiter, auf der 7B etwa 14 %. Alle Schirme und Einstellungen sind sonst gleich.
-- **Helligkeit** dimmt das Bild. Das Hintergrundlicht der 7 lässt sich nur ein- und ausschalten; die 7B könnte es dimmen, die Firmware lässt es aber auf voll.
+- **Helligkeit** dimmt auf der 7B das Hintergrundlicht selbst (seit 0.8.6-beta.16; vorher wurde das Bild gedimmt). Das Hintergrundlicht der 7 lässt sich nur ein- und ausschalten, auf der 7 wird deshalb das Bild gedimmt.
 - **SD-Karte:** Der Steckplatz der Platine nimmt das Protokoll auf, wie bei der WT32.
 - **Updates** laden das Image der eigenen Platine; der Upload im Browser lehnt ein Image für eine andere Platine ab. Siehe [Flashen und Updates](../use/updates.md).
 

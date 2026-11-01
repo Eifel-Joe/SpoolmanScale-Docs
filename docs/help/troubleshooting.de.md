@@ -12,7 +12,7 @@ Für die Waage selbst (NFC-Leser, Wägezelle, Kalibrierung, Backends) gilt die [
 | Auch an der USB-Buchse wird die Platine nicht gefunden | Sie ist nicht im Download-Modus | **BOOT** halten, **RESET** drücken und loslassen, **BOOT** loslassen, noch einmal versuchen |
 | Der Upload im Browser lehnt die Datei ab | Die Datei ist für eine andere Platine oder ein Factory-Image | Die Datei der eigenen Platine ohne `_factory` nehmen: `SpoolmanScale-waveshare-s3-lcd7b_<version>.bin` für die 7B, `…-lcd7_…` für die 7 |
 | Mit der Firmware der 7 bleibt eine 7B dunkel (oder umgekehrt) | Die beiden Platinen sprechen ihren IO-Baustein verschieden an | Das Factory-Image der eigenen Platine flashen |
-| Die Helligkeit ändert das Bild, nicht das Hintergrundlicht | Gewollt: Das Hintergrundlicht bleibt auf voll | – |
+| Die Helligkeit ändert das Bild, nicht das Hintergrundlicht | Auf der 7 gewollt: Ihr Hintergrundlicht lässt sich nur ein- und ausschalten. Die 7B dimmt ihr Hintergrundlicht seit 0.8.6-beta.16 | Auf der 7B: Update |
 
 ## Updates
 

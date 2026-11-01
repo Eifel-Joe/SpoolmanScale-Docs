@@ -12,7 +12,7 @@ For the scale itself (NFC reader, load cell, calibration, backends) the original
 | The board is not found even on the USB connector | It is not in download mode | Hold **BOOT**, press and release **RESET**, release **BOOT**, try again |
 | The upload in the browser refuses the file | The file is for another board, or it is a factory image | Take your board's file without `_factory`: `SpoolmanScale-waveshare-s3-lcd7b_<version>.bin` for the 7B, `…-lcd7_…` for the 7 |
 | The screen stays dark with the 7's firmware on a 7B (or the other way round) | The two boards speak to their I/O expander differently | Flash the factory image of your board |
-| Brightness changes the picture, not the backlight | On purpose: the backlight stays at full | – |
+| Brightness changes the picture, not the backlight | On the 7 on purpose: its backlight can only be switched on and off. The 7B dims its backlight since 0.8.6-beta.16 | On the 7B: update |
 
 ## Updates
 
