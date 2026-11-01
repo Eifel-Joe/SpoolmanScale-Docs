@@ -43,6 +43,8 @@ Der Druckerknopf oben im AMS-Fenster zeigt den Namen des Druckers mit einem Pfei
 
 Ein Klipper-Drucker zeigt seine Gates, Lanes oder Werkzeuge in Vierergruppen, mit der Spule, die jedes hält: Farbe und Material vom Drucker oder aus Spoolman, die Gramm aus Spoolman.
 
+![Ein Klipper-Drucker im AMS-Fenster: sein Feld mit der Spule, die es hält](../assets/images/de/klipper-fields.png){ width="360" }
+
 **Zuordnen:** Spule wiegen, dann **in welches Fach?** → der Klipper-Drucker → das Feld. Oder **Mehr Info → Ins AMS**. Der Drucker führt die Spule dann dort (wie Mainsail oder Fluidd zeigen), und ihr Lagerort in Spoolman wird der Name des Druckers. Happy Hare im Modus `push` oder `pull` setzt den Lagerort selbst.
 
 ## Die verdrängte Spule bekommt ihren alten Lagerort zurück

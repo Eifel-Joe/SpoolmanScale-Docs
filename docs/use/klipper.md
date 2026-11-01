@@ -43,6 +43,8 @@ The printer button at the top of the AMS view shows the printer's name with an a
 
 A Klipper printer shows its gates, lanes or tools in groups of four, with the spool each one holds: colour and material from the printer or from Spoolman, the grams from Spoolman.
 
+![A Klipper printer in the AMS view: its field with the spool it holds](../assets/images/en/klipper-fields.png){ width="360" }
+
 **Assigning:** weigh a spool, then **into which bay?** → the Klipper printer → the field. Or **More info → Into AMS**. The printer then holds the spool there (as Mainsail or Fluidd show), and the spool's location in Spoolman becomes the printer's name. Happy Hare in `push` or `pull` mode sets the location itself.
 
 ## The displaced spool gets its old location back
