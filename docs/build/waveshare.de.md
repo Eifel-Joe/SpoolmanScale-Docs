@@ -37,6 +37,18 @@ PN532 und NAU7802 teilen sich wie bei der WT32 einen I2C-Bus, an der **UART2-Buc
 
 Für Strom, Flashen, das serielle Protokoll und die WLAN-Einrichtung über den Web-Flasher die Buchse mit der Aufschrift **USB** nehmen, nicht die mit UART.
 
+**Mit Akku** gehört das Netzteil stattdessen an die Buchse mit der Aufschrift **UART** (siehe [Akku](#akku)): Nur dort lädt die Platine ihn.
+
+## Akku
+
+Die 7 und die 7B laden einen Lithium-Ionen-Akku an ihrer Akkubuchse und laufen mit ihm. Die 7B misst ihn außerdem (seit 0.8.6-beta.20): Der Hauptschirm zeigt den Ladestand in der obersten Zeile, beim Laden einen Blitz, warnt bei 20 % und bevor die Platine abschaltet, und startet ein Update im Akkubetrieb erst ab 50 %. Die 7 kann ihren Akku nicht messen; sie zeigt nichts und sperrt nichts. Die WT32-SC01 Plus hat keine Akkubuchse.
+
+- **Eine Lithium-Ionen-Zelle, 3,7 V, höchstens 2000 mAh**, wie Waveshare empfiehlt, **mit eigener Schutzschaltung**: Der Wandler der Platine schaltet bei 2,7 V ab, trennt den Akku aber nicht.
+- **Stecker vor dem Einstecken prüfen:** Auf der Platine ist Pin 1 Minus und Pin 2 Plus. Viele Akkus mit PH2.0-Stecker sind andersherum belegt.
+- **Das Netzteil gehört an die Buchse mit der Aufschrift UART**, mindestens 1 A. Nur dort lädt die Platine den Akku; an der Buchse USB lädt sie nicht, und der Akku wird langsam leer.
+- **Das erste Flashen und die Wiederherstellung nach einem fehlgeschlagenen Update über WLAN laufen über die Buchse USB** mit dem [Web-Flasher](https://eifel-joe.github.io/SpoolmanScale/), wie ohne Akku. Die Buchse UART führt nur Strom, solange der Umschalter auf UART2 steht.
+- Die Prozente sind an einer 7B mit einem 2000-mAh-Lithium-Ionen-Akku bei voller Helligkeit gemessen: etwa 2½ Stunden mit einer Akkuladung bei dauernd eingeschaltetem Bildschirm; „Akku schwach“ kommt etwa 30 Minuten, „Akku fast leer“ etwa 15 Minuten vor dem Abschalten. Dimmt der Bildschirm, schaltet er ab und schläft die Waage, hält sie deutlich länger. Ein anderer Akku kann um etwa 10 % abweichen; mit gedimmtem Bildschirm zeigt die Anzeige eher einige Prozent zu viel, und die Laufzeit wird länger. Die Laufzeit richtet sich nach der Kapazität.
+
 ## Was auf diesen Platinen anders ist
 
 - **Das Bild** ist die 480×320-Oberfläche der WT32, vergrößert, bis sie das Panel füllt: auf der 7 etwa 11 % breiter, auf der 7B etwa 14 %. Alle Schirme und Einstellungen sind sonst gleich.

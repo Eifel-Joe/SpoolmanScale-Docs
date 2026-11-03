@@ -37,6 +37,18 @@ The PN532 and the NAU7802 share one I2C bus, as on the WT32, on the board's **UA
 
 Use the connector labelled **USB**, not the one labelled UART, for power, flashing, the serial log and the web flasher's WiFi setup.
 
+**With a battery** the power supply goes to the connector labelled **UART** instead (see [Battery](#battery)): only there does the board charge it.
+
+## Battery
+
+The 7 and the 7B charge and run on a lithium-ion battery at their battery connector. The 7B also measures it (since 0.8.6-beta.20): the main screen shows the charge in its top line, a bolt while it charges, warns at 20 % and before the board switches off, and starts an update on the battery only from 50 %. The 7 cannot measure its battery; it shows nothing and locks nothing. The WT32-SC01 Plus has no battery connector.
+
+- **One lithium-ion cell, 3.7 V, at most 2000 mAh**, as Waveshare recommends, **with its own protection circuit**: the board's converter stops at 2.7 V but does not disconnect the cell.
+- **Check the plug before connecting it:** on the board pin 1 is minus and pin 2 plus. Many batteries with a PH2.0 plug are wired the other way round.
+- **The power supply goes to the connector labelled UART**, at least 1 A. Only there does the board charge the battery; at the connector labelled USB it does not, and the battery slowly runs down.
+- **The first flash, and the recovery after a failed update over WiFi, go through the connector labelled USB** with the [web flasher](https://eifel-joe.github.io/SpoolmanScale/), as without a battery. The UART connector carries power only while the selection switch is at UART2.
+- The per cents are measured on a 7B with a 2000 mAh lithium-ion battery at full brightness: about 2½ hours on a full charge with the screen always on; "Battery low" comes about 30 minutes, "Battery almost empty" about 15 minutes before it switches off. With the screen dimming, switching off and the scale going to sleep it lasts far longer. Another battery can be some 10 % off; with a dimmed screen the display tends to show a few per cent more, and the runtime grows. The runtime follows the battery's capacity.
+
 ## What is different on these boards
 
 - **The picture** is the 480×320 interface of the WT32, enlarged until it fills the panel: about 11 % wider on the 7, about 14 % on the 7B. Every screen and every setting is otherwise the same.
