@@ -1,6 +1,6 @@
 # Klipper-Drucker
 
-*0.8.6 Vorabversion* · Spoolman, oder BamBuddy, das seine Spulen in Spoolman speichert
+*seit 0.8.6* · Spoolman, oder BamBuddy, das seine Spulen in Spoolman speichert
 
 Das AMS-Fenster des Originals zeigt die Bambu-Drucker von FilaMan oder BamBuddy (siehe [Doku des Originals](https://niko11111.github.io/SpoolmanScale-Docs/de/use/ams/)). Dieser Fork fügt Klipper-Drucker hinzu: Eine gewogene Spule kommt über Moonraker in ein Gate, eine Lane oder ein Werkzeug eines Klipper-Druckers. BamBuddy erfährt nichts von diesen Druckern.
 

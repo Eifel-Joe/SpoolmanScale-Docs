@@ -10,7 +10,7 @@ The original creates a spool at the scale from a Bambu tag or a blank NTAG, and 
 
 ## Create a spool without weighing and without a tag
 
-*0.8.6 pre-release*
+*since 0.8.6*
 
 For rolls that are still sealed, or that you want in the inventory before they ever lie on the scale.
 
@@ -60,7 +60,7 @@ The steps are maker, material, line, colour, filament weight and spool. In each 
 
 After the steps comes the usual create card (spool type, price, link the tag).
 
-- **Density:** Spoolman needs one for every new filament. The scale also looks the product name up in the filament database (Bambu "Support for ABS" → 1.16 g/cm³). Where none is found, the left button of the card reads **Density** and opens a number pad (0.50 to 4.00 g/cm³). *0.8.6 pre-release*
+- **Density:** Spoolman needs one for every new filament. The scale also looks the product name up in the filament database (Bambu "Support for ABS" → 1.16 g/cm³). Where none is found, the left button of the card reads **Density** and opens a number pad (0.50 to 4.00 g/cm³). *since 0.8.6*
 - **Names behind BamBuddy:** a new filament is named "<material>" or "<material> <line>", as BamBuddy names its own; the colour name goes onto the spool. BamBuddy renames a filament that way on every change anyway.
 
 ## Copy with all fields
@@ -73,13 +73,13 @@ Why it matters: BamBuddy puts a spool's profile into the AMS bay, and the AMS ba
 
 ## Spool type when creating from a Bambu tag
 
-*0.8.6 pre-release* · BamBuddy, with or without Spoolman
+*since 0.8.6* · BamBuddy, with or without Spoolman
 
 **Create spool from tag?** first asks for the spool type, as copying and **New from database** do. The list shows the "Bambu Lab" types with the one nearest 250 g marked, and **Without type**, which creates the spool as before. A refill on another spool so gets its real empty weight. The list only comes when a spool lies on the scale.
 
 ## Search and keyboards
 
-*0.8.6 pre-release*
+*since 0.8.6*
 
 - A **magnifier** in the header of the spool type list and of the colour lists (**Enter filament**, colour step; **New from database**, colour families and entries) opens the keyboard. After a word, the list shows only entries whose name contains it, upper or lower case alike, umlauts and accents included. The word stands in the header with an × that ends the search.
 

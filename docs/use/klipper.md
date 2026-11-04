@@ -1,6 +1,6 @@
 # Klipper printers
 
-*0.8.6 pre-release* · Spoolman, or BamBuddy that keeps its spools in Spoolman
+*since 0.8.6* · Spoolman, or BamBuddy that keeps its spools in Spoolman
 
 The original's AMS view shows the Bambu printers of FilaMan or BamBuddy (see the [original's documentation](https://niko11111.github.io/SpoolmanScale-Docs/use/ams/)). This fork adds Klipper printers to it: a weighed spool goes into a gate, lane or tool of a Klipper printer, through Moonraker. BamBuddy learns nothing about these printers.
 

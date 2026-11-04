@@ -1,6 +1,6 @@
 # Flashing and updates
 
-A scale running this fork takes its releases, its updates and its web flasher from this fork, not from the original. Version numbers are the fork's own: this fork's 0.8.5 builds on the original's 0.8.3, and the original's 0.8.4 is a different firmware.
+A scale running this fork takes its releases, its updates and its web flasher from this fork, not from the original. Version numbers are the fork's own: this fork's 0.8.5 and 0.8.6 build on the original's 0.8.3, and the original's 0.8.4 is a different firmware.
 
 ## First flash
 

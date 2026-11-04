@@ -27,7 +27,7 @@ Live von der Wägezelle: der gefundene Wandler, der Rohwert, das Gewicht, seine 
 
 ## Downloads in BamBuddy
 
-*0.8.6 Vorabversion*
+*seit 0.8.6*
 
 BamBuddy kann die Weboberfläche der Waage in seiner eigenen Seite zeigen, in einem Rahmen, der keine Downloads erlaubt. Dort öffnet jeder Download (die Einstellungs-Sicherung, ein Bildschirmfoto, das Protokoll) ein kleines eigenes Fenster. Bei einer einzelnen Datei bleibt es offen, zeigt „Gespeichert: <Dateiname>“ und hat einen Knopf **Schließen**, damit der Download-Hinweis des Browsers sichtbar bleibt. Bildschirmfotos lassen sich auch alle auf einmal speichern.
 

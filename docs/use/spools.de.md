@@ -10,7 +10,7 @@ Das Original legt an der Waage eine Spule aus einem Bambu-Tag oder einem leeren 
 
 ## Spule ohne Wiegen und ohne Aufkleber anlegen
 
-*0.8.6 Vorabversion*
+*seit 0.8.6*
 
 Für Rollen, die noch verschweißt sind, oder die in den Bestand sollen, bevor sie je auf der Waage liegen.
 
@@ -60,7 +60,7 @@ Die Schritte sind Marke, Material, Linie, Farbe, Füllmenge und Spule. In jedem 
 
 Nach den Schritten kommt die gewohnte Anlege-Karte (Spulentyp, Preis, Aufkleber verknüpfen).
 
-- **Dichte:** Spoolman braucht sie für jedes neue Filament. Die Waage sucht auch über den Produktnamen in der Filament-Datenbank (Bambu „Support for ABS“ → 1,16 g/cm³). Findet sie keine, heißt die linke Taste der Karte **Dichte** und öffnet ein Zahlenfeld (0,50 bis 4,00 g/cm³). *0.8.6 Vorabversion*
+- **Dichte:** Spoolman braucht sie für jedes neue Filament. Die Waage sucht auch über den Produktnamen in der Filament-Datenbank (Bambu „Support for ABS“ → 1,16 g/cm³). Findet sie keine, heißt die linke Taste der Karte **Dichte** und öffnet ein Zahlenfeld (0,50 bis 4,00 g/cm³). *seit 0.8.6*
 - **Namen hinter BamBuddy:** Ein neues Filament heißt „<Material>“ oder „<Material> <Linie>“, wie BamBuddy seine eigenen benennt; der Farbname kommt an die Spule. BamBuddy benennt ein Filament bei jeder Änderung ohnehin so um.
 
 ## Kopie mit allen Feldern
@@ -73,13 +73,13 @@ Warum das zählt: BamBuddy setzt das Profil einer Spule ins AMS-Fach, und die AM
 
 ## Spulentyp beim Anlegen aus einem Bambu-Tag
 
-*0.8.6 Vorabversion* · BamBuddy, mit und ohne Spoolman
+*seit 0.8.6* · BamBuddy, mit und ohne Spoolman
 
 **Spule aus Tag anlegen?** fragt zuerst nach dem Spulentyp, wie Kopieren und **Neu aus Datenbank** es schon tun. Die Liste zeigt die Typen von „Bambu Lab“, der nächste an 250 g ist markiert, und **Ohne Typ**, das die Spule wie bisher anlegt. Ein Nachfüllpack auf einer anderen Spule bekommt so sein echtes Leergewicht. Die Liste kommt nur, wenn eine Spule auf der Waage liegt.
 
 ## Suche und Tastaturen
 
-*0.8.6 Vorabversion*
+*seit 0.8.6*
 
 - Eine **Lupe** in der Kopfzeile der Spulentyp-Liste und der Farblisten (**Sorte eingeben**, Schritt Farbe; **Neu aus Datenbank**, Farbgruppen und Einträge) öffnet die Tastatur. Nach einem Wort zeigt die Liste nur Einträge, deren Name es enthält, egal ob groß oder klein, auch mit Umlauten und Akzenten. Das Wort steht in der Kopfzeile mit einem ×, das die Suche beendet.
 

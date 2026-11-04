@@ -27,7 +27,7 @@ Live from the load cell: the amplifier found, the raw value, the weight, its noi
 
 ## Downloads inside BamBuddy
 
-*0.8.6 pre-release*
+*since 0.8.6*
 
 BamBuddy can show the scale's web interface inside its own page, in a frame that does not allow downloads. There, every download (the settings backup, a screenshot, the log) opens a small window of its own. With a single file it stays open, reads "Saved: <file name>" and has a **Close** button, so the browser's download notice stays visible. Screenshots can also be saved all at once.
 

@@ -19,7 +19,7 @@ As with any label printer: **More info → Print label**, after creating a spool
 
 ## Label text
 
-*0.8.6 pre-release* · every printer the scale renders for (Brother, Bluetooth printers, the preview)
+*since 0.8.6* · every printer the scale renders for (Brother, Bluetooth printers, the preview)
 
 - The lines under the header take the **largest font** in which every chosen line fits the label, in width and in height, without making the QR code smaller. Fewer lines, larger text.
 - **Colour as RGB** in the label editor (spool and filament labels, off by default) adds a line such as "RGB: 242, 242, 232" under the colour. Bambu Studio and OrcaSlicer take a colour as RGB, so the colour can be set there exactly as it is stored. Not for transparent, multicolour or colours without a valid hex value.

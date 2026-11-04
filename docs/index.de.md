@@ -6,8 +6,8 @@ Dies ist die Doku des [Eifel-Joe-Forks](https://github.com/Eifel-Joe/SpoolmanSca
 
 Sie beschreibt nur, was dieser Fork anders macht. Alles andere, von der Stückliste und der Verkabelung der WT32-SC01 Plus bis zu Tags, Backends und Trocknung, steht in der **[Doku des Originals](https://niko11111.github.io/SpoolmanScale-Docs/de/)** und gilt auch für diesen Fork.
 
-!!! note "Vorabversionen"
-    Was mit *0.8.6 Vorabversion* markiert ist, steckt in den Vorabversionen dieses Forks, noch nicht in seinem neuesten stabilen Release 0.8.5. Dafür an der Waage **Vorabversionen** einschalten, siehe [Flashen und Updates](use/updates.md).
+!!! note "Versionen"
+    Jede Funktion ist mit dem stabilen Release dieses Forks markiert, in dem sie zuerst kam: *seit 0.8.5* oder *seit 0.8.6*. Das neueste stabile Release ist 0.8.6. Vorabversionen gibt es nur mit **Vorabversionen** an der Waage, siehe [Flashen und Updates](use/updates.md).
 
 ## Was dieser Fork dazu hat
 

@@ -1,6 +1,6 @@
 # Flashen und Updates
 
-Eine Waage mit diesem Fork bekommt Releases, Updates und Web-Flasher aus diesem Fork, nicht vom Original. Die Versionsnummern sind die des Forks: Seine 0.8.5 baut auf der 0.8.3 des Originals auf, und die 0.8.4 des Originals ist eine andere Firmware.
+Eine Waage mit diesem Fork bekommt Releases, Updates und Web-Flasher aus diesem Fork, nicht vom Original. Die Versionsnummern sind die des Forks: Seine 0.8.5 und 0.8.6 bauen auf der 0.8.3 des Originals auf, und die 0.8.4 des Originals ist eine andere Firmware.
 
 ## Erstes Flashen
 

@@ -19,7 +19,7 @@ Wie bei jedem Etikettendrucker: **Mehr Info → Etikett drucken**, nach dem Anle
 
 ## Etikettenschrift
 
-*0.8.6 Vorabversion* · jeder Drucker, für den die Waage zeichnet (Brother, Bluetooth-Drucker, die Vorschau)
+*seit 0.8.6* · jeder Drucker, für den die Waage zeichnet (Brother, Bluetooth-Drucker, die Vorschau)
 
 - Die Zeilen unter dem Kopf nehmen die **größte Schrift**, mit der jede gewählte Zeile in Breite und Höhe aufs Etikett passt, ohne den QR-Code zu verkleinern. Weniger Zeilen, größere Schrift.
 - **Farbe als RGB** im Etiketten-Editor (Spulen- und Filament-Etiketten, ab Werk aus) fügt unter der Farbe eine Zeile wie „RGB: 242, 242, 232“ hinzu. Bambu Studio und OrcaSlicer nehmen eine Farbe als RGB, so lässt sie sich dort genau so einstellen, wie sie gespeichert ist. Nicht bei durchsichtig, mehrfarbig oder ohne gültigen Hex-Wert.

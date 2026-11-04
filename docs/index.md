@@ -6,8 +6,8 @@ This is the documentation of the [Eifel-Joe fork](https://github.com/Eifel-Joe/S
 
 It covers only what this fork does differently. Everything else, from the parts list and the WT32-SC01 Plus wiring to tags, backends and drying, is in the **[original's documentation](https://niko11111.github.io/SpoolmanScale-Docs/)**, and it applies to this fork as well.
 
-!!! note "Pre-releases"
-    Features marked *0.8.6 pre-release* are in this fork's pre-releases, not yet in its latest stable release 0.8.5. To get them, switch on **Pre-release** at the scale, see [Flashing and updates](use/updates.md).
+!!! note "Versions"
+    Each feature is marked with the stable release of this fork it first came in: *since 0.8.5* or *since 0.8.6*. The latest stable release is 0.8.6. Pre-releases come only with **Pre-release** switched on at the scale, see [Flashing and updates](use/updates.md).
 
 ## What this fork adds
 
